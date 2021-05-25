@@ -1,3 +1,600 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.navbar{  box-shadow: 5px 10px 18px black; background-color:rgb(16, 16, 59)}
+.txt-shadow {text-shadow:2px 2px 4px #222;}
+.nav-link .getstarted { color:#4dbef7; font-weight: 500;  }
+
+.branding {
+    width: 104%;
+  }
+
+
+/* main hero img */
+#Hero {
+    background-size: cover; 
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* small hero img About page,  */
+#Smallhero {
+    background-size: cover; 
+    background-image: url('../img/cyberspace.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 80vh;
+}
+
+/* ethical hacker background image */
+#ethHero {       
+    background-size: cover; 
+    background-image: 
+    linear-gradient(to bottom right, rgba(35, 37, 136, 0.26), rgba(136, 8, 8, 0.9)),
+    url('../img/eth-bg.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 100vh;
+}
+#ethHero h1 {
+    color: azure; font-weight: 400;  
+}
+#ethHero h1 span {
+    color: lightskyblue; font-weight: 600;
+}
+
+/* Placeholder hero background image */
+#PlaceholderhHero {       
+    background-size: cover; 
+    background-image: 
+    linear-gradient(to bottom right, rgba(35, 37, 136, 0.26), rgba(136, 8, 8, 0.9)),
+    url('../img/placeholder.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 100vh;
+}
+
+/* Hero header background image */
+#Comptia {       
+    background-size: cover; 
+    background-image: 
+    linear-gradient(to bottom right, rgba(35, 37, 136, 0.26), rgba(136, 8, 8, 0.9)),
+    url('../img/placeholder.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 100vh;
+}
+#Aplus {       
+    background-size: cover; 
+    background-image: 
+    linear-gradient(to bottom right, rgba(35, 37, 136, 0.26), rgba(136, 8, 8, 0.9)),
+    url('../img/aplus-bg.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 100vh;
+}
+
+#NetworkPlus {       
+    background-size: cover; 
+    background-image: 
+    linear-gradient(to bottom right, rgba(35, 37, 136, 0.4), rgba(136, 8, 8, 0.9)),
+    url('../img/placeholder.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 100vh;
+}
+
+
+
+/* Hero header background image */
+#Xclasses {       
+    background-size: cover; 
+    background-image: 
+    linear-gradient(to bottom right, rgba(31, 32, 114, 0.55), rgba(136, 8, 8, 0.9)),
+    url('../img/pentest4-bg.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 100vh;
+}
+#Xclasses h1 {
+    color: azure; font-weight: 400;  
+}
+#Xclasses h1 span {
+    color: lightskyblue; font-weight: 600;
+}
+
+
+#Msql h2 {color:#006699;}
+
+#list-tab .list-group-item .list-group-item-action .active {background-color: #d9534f;  color: azure; font-weight:500;}
+#list-home-list, #list-profile-list, #list-message-list {background-color: #d9534f;  color: azure; font-weight:500;}
+
+
+/* PROMO bar under Hero img */
+#Reg {background-color: lightslategray;}
+.register {  
+    background-color: #d9534f;  
+    color: white;  
+    padding: 4px 8px;  
+    text-decoration: none;  
+    text-transform: uppercase; 
+    font-size:1em; 
+    border-radius: 6px;
+    margin:5px auto 0 auto;
+    text-align: center;
+}
+#Reg .btn.btn-sm {
+    background-color: indianred;
+    color: #FFF; 
+    font-weight: 600;
+    padding: 4px 10px;
+    margin-left: 20px;
+}
+
+#Reg .btn.btn-sm:hover {
+    background-color: #222;
+}
+
+
+
+#Video {background-color: slategray;}
+
+
+#Skillsoft {color:#006699; background-color:#000033; }
+#Skillsoft h3 {margin-top:24px;}
+#Skillsoft .fas, .far {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#67c8f9, #006699);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;                 
+    }
+#Skillsoft h4 span {color: #acacac; font-size:16px}
+
+#Prereq {
+    background-size: cover; 
+    background-image: url('../img/prereq-bg-ethh.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 90vh; 
+    color: #efefef;
+}
+
+#Prereq .dkoverlay{
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.4); /*dim the background*/
+  }
+
+
+#Objective  {
+    background-size: cover; 
+    background-image: url('../img/objectives3-bg.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    height: 700px;
+    } 
+   
+
+#Objective .dkoverlay{
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+
+
+
+#WhatsIncl {
+    background-color: #000033;
+    color: azure;
+}
+
+#WhatsIncl .fa, .fas {color: lightskyblue}
+#WhatsIncl h1 {color: lightskyblue}
+
+.careerDev  {
+    background-size: cover; 
+    background-image: 
+    linear-gradient(to bottom right, rgba(35, 37, 136, 0.26), rgba(136, 8, 8, 0.9)),
+    url('../img/careerdev-bg.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    height: 70vh;
+    } 
+
+.instructors {
+    background-size: cover; 
+    background-image: 
+    linear-gradient(to bottom right, rgba(35, 37, 136, 0.26), rgba(136, 8, 8, 0.9)),
+    url('../img/instructors-bg.jpg');
+    background-repeat: no-repeat;
+    border: none;
+    height: 70vh;
+}       
+
+hr.light {
+    border-top: 1px solid #efefef;
+    margin-bottom: 5em;
+  }
+hr.blue {
+    border-top: 1px solid #87CEFA;
+    margin-bottom: 5em;
+  }     
+
+
+#Why  {background-color:}   
+#Why h1 {color: #006699}   
+#Why h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#67c8f9, #006699);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+
+.h1-blugrad {
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient(#67c8f9, #006699);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}    
+
+.hr-light {
+
+}
+
+.grad {
+    background: -webkit-linear-gradient(#67c8f9, #006699);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   
+
+ul.square {list-style-type:square; color: azure}
+ul.square li {margin-left: 1em;}
+
+ul.square-lg {list-style-type:square; color: azure}
+ul.square-lg li {margin-left: 1em; font-size:1.2em;}
+
+ul.square-dark {list-style-type:square; color: steelblue; text-align:left}
+ul.square-dark li {margin-left: 1em; font-size:1.2em}
+
+ul.square-lg-dark {list-style-type:square; color: midnightblue}
+ul.square-lg-dark a {list-style-type:square; color: #006699; font-weight:500; text-decoration: underline; margin-bottom:3px;}
+ul.square-lg-dark a:hover {color: red; }
+ul.square-lg-dark li {margin-left: 1em; font-size:1.2em;}
+
+ol.square-lg-dark { color: midnightblue}
+ol.square-lg-dark li {margin-left: 1em; font-size:1.2em;}
+
+#Contact  {background-color:#006699}
+
+
+.footer {background: #222;}
+.footer a {color: cyan; color: #4dbef7;}
+.footer h4 {color:#4dbef7}
+
+
+/* Aboutpage */
+.bullets {
+    background-color:lightgrey;
+    background-color:#000032;
+    color: #FFF;
+}
+.bullets h4 {
+    color: #82ddfc;
+}
+.bullets p {
+    color: #efefef;
+    font-size: 0.9em;
+}
+
+/* CTA - You have a Vision */
+#CTA2 { background-color: lightslategrey;}
+#CTA2 a {font-size: 1em; text-decoration: none; color:midnightblue}
+#CTA2 a:hover {color:royalblue;}
+
+
+/* COLOURS  */
+.blu {color: #006699;}
+.blu-bold {color: #069; font-weight: 700;}
+.ltskyblue {color: lightskyblue}
+.bluBg {background: #006699; color: #FFF;}
+/* .bluBg a:hover {background: #108dc7; color: #efefef;} */
+.bluBg a:hover {color: lightskyblue}
+
+/* background for images */
+.bg-white {background-color: #FFF; padding: 5px;}
+
+
+.drkblu {background: #03183e}
+.drkblue {color: #03183e; }
+.ltblu {background-color:lightskyblue; }
+.ltgrey {background-color:lightsteelblue }
+.text-aliceblue { color:aliceblue }
+.salmon  {color: #d9534f;}
+.salmon-bold  {color: #d9534f; font-weight: 800}
+.salmon-bold:hover  {color: #FFF; }
+.bgsalmon {background:#d9534f; color:#FFF;}
+.bgsalmon a:hover {color:}
+.bgMidnight {background-color: midnightblue;}
+.text-steelblue {color: steelblue }
+.lightsteelblue {color: lightsteelblue}
+.bglightslate {background-color: lightslategray; color: #efefef; }
+.bgmidnite {background-color:#000033;}
+.bggrey {background-color: slategrey; text-align:center;}
+.bg-gray {background-color: slategrey; text-align:left;}
+.txtgrey {color: #444}
+.imgmuted {opacity: 50%;}
+
+
+/* http://localhost/cbtxpress/contEdu page */
+.renew a {
+    color:midnightblue;
+}
+.renew h3 {
+    color: lightblue; 
+    color:midnightblue;
+    font-weight:500;
+}
+
+
+/* float images to the right in browser view on company > contEdu page intro section under Hero image */
+/* IMAGES images img */
+.intro img {
+    float: right;
+
+}
+
+
+
+
+
+/* Course pages: TIA  */
+#BootcampIncl h4 {
+    color: #d9534f;
+    font-weight:bold;
+}
+
+#BootcampIncl .fa-check, h4 {color: #d9534f;}
+#BootcampIncl h4 {color: #d9534f;}
+
+/* text sizes */
+.txt12 {font-size:1.2em}
+.txt14 {font-size:1.4em}
+.txt16 {font-size:1.6em}
+.txt18 {font-size:1.8em}
+
+
+
+/* class page styles */
+#BootcampTests {
+    background-color: azure;
+    color: #d9534f;
+
+}
+/* #BootcampTests ul li {
+    color: white;
+    list-style-type: none;
+} */
+
+#BootcampTests ul.sq {
+    list-style-type: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size:1.4em;
+    text-align: left;
+    margin-left: 6em;
+}
+
+
+
+
+#Partners {
+    background-color:;
+    color:grey;
+}
+
+
+.wrapper {
+    display:grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 40% 30% 30%; */
+    /* grid-column-gap: 1em; */
+    grid-gap: 0.5em; 
+    /* grid-auto-rows:100px; */
+    grid-auto-rows: minmax(40px, auto);
+}
+
+.wrapper > div {
+    background: #eee;
+    padding: 1em;
+    margin: 0 2em;
+}
+
+.wrapper > div > p {
+    text-align: center;
+    margin: 0 auto;
+    color:#222;
+}
+.wrapper i {
+    text-align: center;
+    margin: 0 auto;
+    padding:0;
+}
+
+#Location i {
+       color: red;
+       margin: 0 auto;
+       padding:0;
+       text-align: center;       
+}
+
+
+
+/* image container gallery  */
+    #img-thmbs {
+           width: 22%;
+           height: 70%;
+    }
+
+    #icon-container {
+           display: flex;
+           width: 600px;
+           margin: 0 auto;
+    }
+    #gallery-container {
+     padding: 0;
+     margin: 20px auto 0 auto;
+    }
+
+    #img-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+    #img-main-container {
+    width: 600px;
+    height: 360px;
+    background-color: #006699;
+    padding: 0px;
+    margin: 0 auto;
+    }
+
+    #img-main {
+    display: block;
+    width: 600px;
+    height: 360px;  
+    margin: 0 auto;
+    text-align: center;                                                                                                                                                                                                                                                                                                                              0px;
+
+    }
+
+    .selected {
+    border: 1px solid lightgrey;
+    }
+
+
+    .material-icons {
+      margin-top:17px;
+      font-size: 1.6em;
+      color: darkslategray;
+    }      
+
+
+
+    /* table on Continuing Education  */
+    .contedu table tr:nth-child(even) {
+           background-color: #eea4a1;
+           background-color: lightslategray;
+           color: #FFF;
+         }
+
+    /* table on Continuing Education  */
+    .dod table > tr > td {
+           text-align: left;
+           border:2px solid #d0d6d9;
+         }
+
+    .dod td {
+          padding-left: 100px;
+          /* padding-left: 50%; */
+    }
+    .dod th {
+           color: #006699;
+           font-weight: 700;
+           text-align: center;
+           background: #d0d6d9;
+           font-size: 1.2em;
+
+     }
+
+    /* table on Continuing Education  */
+    .dod2 table > tr > td {
+           text-align: left;
+           width: 50%;
+
+         }
+
+    .dod2 td {
+          padding-left: 60px;
+          /* padding-left: 50%; */
+          border-right:2px solid #d0d6d9;
+    }
+    .dod2 th {
+           color: #006699;
+           font-weight: 700;
+           text-align: center;
+           background: #d0d6d9;
+           font-size: 1.2em;
+           border-right:2px solid #d0d6d9;
+     }  
+     .dod2 th small {
+            font-weight: bold;
+     }      
+
+     /* If the browser window is 600px or smaller, the background color will be lightblue: */
+     /* @media only screen and (max-width: 600px) { */
+           @media (min-width: 320px) and (max-width: 767px) {
+           body {
+             /* background-color: lightblue; */
+           }
+
+           img, .img-responsive { 
+                  float:none;
+                  text-align: center;
+                  margin:0 auto;
+                  padding:0;
+           }
+           img.float-right{
+                  float:none;
+                  text-align: center;
+                  margin:0 auto;
+                  padding:0;
+           }
+
+           .branding {
+             width: 240%;
+           }
+
+
+           /* CTA Promo bar under Hero img */
+           #Reg .btn.btn-sm {
+                  float:none;
+                  text-align: center;
+                  margin:0 auto;
+           }
+
+    }
+
+
+
+         @media (max-width: 767px) and (min-width: 320px) {
+         .intro img {
+           /* float: none; */
+           /* display: table; */
+           margin: 0;
+           width: 100%;
+           TEXT-ALIGN: CENTER;
+         }
+
+         /* CTA Promo bar under Hero img */
+         #Reg .btn.btn-sm {
+           float:none;
+           text-align: center;
+           margin:0 auto;
+    }
+
+
+    }
+
